@@ -16,6 +16,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # 2) Install Python (for executing code blocks)
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 3) Install Jupyter kernel so Quarto can run Python
+      - name: Install Jupyter
+        run: |
+          python -m pip install --upgrade pip
+          pip install jupyter ipykernel
+
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 

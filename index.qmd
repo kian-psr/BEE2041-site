@@ -4,15 +4,16 @@ title: "My First Website"
 
 ## Hello!
 
-My name is YOUR NAME.
+My name is Kian.
 
-I study YOUR DEGREE.
+I study Finance.
 
 ### Edit this sentence
 I am interested in ...
 
 ### Further edit this site 
 it's all just markdown!
+1
 
 This is a numbered list
 
@@ -24,3 +25,4 @@ This is a numbered list
 ```{python}
 print("hello world!")
 ```
+
